@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('.js-banner .close').on('click', function (e) {
-    $('.banner').addClass('hide');
+    $('.banner').hide());
   });
 
   $('.section-aside .js-link').on('click', function (e) {
